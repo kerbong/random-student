@@ -6,11 +6,7 @@
 .App-btn {
   width: auto;
   height: auto;
-  font-size: 0.8rem;
-  padding: 15px;
-  background-color: antiquewhite;
-  border-radius: 10px;
-  border-width: 0;
+
   position: absolute;
   right: 20px;
   top: 20px;
@@ -30,7 +26,28 @@
 }
 
 .swal-text {
-  font-size: 4rem;
+  font-size: 3rem;
+  word-break: keep-all;
+}
+
+.reset-btn {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: antiquewhite;
+  margin-left: 20px;
+  border-width: 0;
+}
+
+.appInputBtn {
+  width: 50px;
+}
+
+.AppMain-form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
 }
 
 body {
